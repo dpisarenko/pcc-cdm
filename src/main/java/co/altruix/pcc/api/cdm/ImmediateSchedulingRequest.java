@@ -16,5 +16,5 @@ package co.altruix.pcc.api.cdm;
  *
  */
 public interface ImmediateSchedulingRequest extends PccMessage {
-    Integer getUserId();
+    Long getUserId();
 }
