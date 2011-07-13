@@ -11,11 +11,12 @@
 
 package co.altruix.pcc.api.cdm;
 
+import java.io.Serializable;
+
 /**
  * @author DP118M
  *
  */
-public interface ImmediateSchedulingRequest extends PccMessage {
-    Integer getUserId();
-    void setUserId(final Integer aUserId);
+public interface PccMessage extends Serializable {
+
 }
