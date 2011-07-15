@@ -11,14 +11,14 @@
 
 package co.altruix.pcc.impl.cdm;
 
-import co.altruix.pcc.api.cdm.ImmediateSchedulingRequest;
+import co.altruix.pcc.api.cdm.PccMessage;
 
 /**
  * @author DP118M
  * 
  */
 public final class DefaultImmediateSchedulingRequest implements
-        ImmediateSchedulingRequest {
+        PccMessage {
     private static final long serialVersionUID = 1L;
     private Long userId;
 
