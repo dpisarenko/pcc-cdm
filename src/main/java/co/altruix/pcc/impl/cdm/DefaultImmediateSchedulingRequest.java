@@ -18,7 +18,7 @@ import co.altruix.pcc.api.cdm.PccMessage;
  * 
  */
 public final class DefaultImmediateSchedulingRequest implements
-        PccMessage {
+        PccMessage  {
     private static final long serialVersionUID = 1L;
     private Long userId;
 
@@ -29,5 +29,4 @@ public final class DefaultImmediateSchedulingRequest implements
     public Long getUserId() {
         return this.userId;
     }
-
 }
